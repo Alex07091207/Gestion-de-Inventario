@@ -1,0 +1,19 @@
+.menu-inferior {
+position: fixed;
+bottom: 0;
+width: 100%;
+background-color: #333;
+display: flex;
+justify-content: space-around;
+padding: 15px 0;
+}
+
+.menu-inferior a {
+color: white;
+text-decoration: none;
+font-weight: bold;
+}
+
+.menu-inferior a:hover {
+color: #61dafb;
+}
