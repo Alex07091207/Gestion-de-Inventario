@@ -6,6 +6,7 @@ import IngresarArticulo from './pages/IngresarArticulo';
 import ListadoInventario from './pages/ListadoInventario';
 import MenuInferior from './components/MenuInferior';
 import MenuInventario from './components/MenuInventario';
+import Carrito from './pages/Carrito';
 import { InventarioProvider } from './context/InventarioContext';
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
             <Route path="/tiendas" element={<NuestrasTiendas />} />
             <Route path="/ingresar" element={<IngresarArticulo />} />
             <Route path="/listado" element={<ListadoInventario />} />
+            <Route path="/carrito" element={<Carrito />} />
           </Routes>
           
           <MenuInferior />
